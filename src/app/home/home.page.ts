@@ -14,7 +14,16 @@ export class HomePage {
 
   opentab1(){
     this.inBrowser.create("https://www.google.com",'_self');
-    console.log("hello");
+  }
+
+  
+  opentab2(){
+    this.inBrowser.create("https://www.google.com",'_self');
+  }
+
+  
+  opentab3(){
+    this.inBrowser.create("https://www.google.com",'_self');
   }
 
 }
